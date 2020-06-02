@@ -1,0 +1,7 @@
+# ignore everthing
+*
+
+!.gitignore
+!package.json
+!prettier/
+!prettier/*

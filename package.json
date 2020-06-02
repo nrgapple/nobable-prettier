@@ -1,0 +1,16 @@
+{
+  "name": "notable",
+  "version": "1.0.0",
+  "description": "",
+  "main": "prettier.js",
+  "scripts": {
+    "start": "concurrently \"Notable.exe --remote-debugging-port=31337\" \"node prettier/prettier.js\" "
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "concurrently": "^5.2.0",
+    "prettier": "^2.0.5"
+  }
+}
